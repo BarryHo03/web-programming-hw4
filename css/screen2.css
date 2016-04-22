@@ -1,0 +1,357 @@
+
+.icon {
+  margin-bottom: 10px;
+}
+body div div nav{
+  color: rgb(96,190,174);
+}
+body div div nav ul{
+  list-style-type: none;
+}
+#nd-nav{
+  display: flex;
+  background-color: rgb(239,248,247);
+  color: rgb(96,190,174);
+}
+#nd-nav .option h3{
+  font-size: 2rem;
+}
+#nd-nav .option p{
+  font-size: 1rem;
+}
+#nd-nav{
+  margin-bottom: 10px;
+}
+
+#archives .arti-with-pic .title{
+  color: rgb(96,190,174);
+  font-size: 1.8rem;
+}
+#archives .arti-with-pic time{
+  color: #AAA;
+}
+
+@media screen and (max-width: 480px) { 
+  #wrapper{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .icon{
+    width: 60px;
+  }
+  .icon img{
+    width: 100%;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body div div .icon{
+    order: 2;
+  }
+  body div div nav{
+    order: 1;
+  }
+  body div div nav ul{
+    padding: 0;
+  }
+  body div div nav ul li{
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  body div div nav ul li:not(:last-of-type){
+    padding-right: 10px;
+  }
+  body aside{
+    display: none;
+  }
+  #main{
+    width: 100%;
+  }
+  .pic{
+    height:248px;
+  }
+  #main .hero-unit .pic{
+    position: relative;
+  }
+  #main .hero-unit .pic .title-box{
+    position: absolute;
+    bottom: 0px;
+    line-height: 1rem;
+    width: 100%;
+  }
+  #titleA{
+    width: 100%;
+    padding:15px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+  }
+  #titleB{
+    width: 100%;
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+  }
+  #nd-nav{
+    display: none;
+  }
+  #archives .arti-with-pic{
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  #archives .arti-with-pic .img img{
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+  #wrapper{
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .icon{
+    width: 60px;
+  }
+  .icon img{
+    width: 100%;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body div div nav ul {
+    padding-left: 0;
+  }
+  body div div nav ul li{
+    display: inline-block;
+    font-size: 1.7rem;
+  }
+  body div div nav ul li:not(:last-of-type){
+    padding-right: 20px;
+  }
+  body aside{
+    display: none;
+  }
+  #main{
+    width: 100%;
+  }
+  .pic{
+    height:248px;
+  }
+  #main .hero-unit .pic{
+    position: relative;
+  }
+  #main .hero-unit .pic .title-box{
+    position: absolute;
+    bottom: 0px;
+    line-height: 1rem;
+    width: 100%;
+  }
+  #titleA{
+    width: 100%;
+    padding:15px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+  }
+  #titleB{
+    width: 100%;
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+  }
+  #nd-nav{
+    display: none;
+  }
+  #archives{
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  #archives .arti-with-pic{
+    width: 50%;
+    padding: 0 5px 0 5px;
+    margin: 20px 0 20px 0;
+  }
+  #archives .arti-with-pic .img img{
+    max-width: 100%;
+  }  
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){ 
+  #wrapper{
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .icon{
+    width: 100px;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #main{
+    width: 100%;
+  }
+  body div div nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.7rem;
+  }
+  body aside{
+    display: none;
+  }
+  .pic{
+    height:445px;
+  }
+   #nd-nav .option{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 1;
+    text-align: center;
+  }
+  #nd-nav .option:nth-of-type(1), #nd-nav .option:nth-of-type(2), #nd-nav .option:nth-of-type(3){
+    border-right: 0.5px solid rgb(217,239,236);
+  }
+  #archives{
+    display: flex;
+  } 
+  #archives .arti-with-pic{
+    width: 25%;
+    padding:0 10px 0 10px;
+  }
+  #archives .arti-with-pic .img img{
+    max-width: 100%;
+  }
+  #main .hero-unit .pic{
+    position: relative;
+  }
+  #main .hero-unit .pic .title-box{
+    position: absolute;
+    bottom: 80px;
+    right:0;
+    line-height: 30px;
+  }
+  #titleA{
+    padding:15px;
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+  }
+  #titleB{
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+    clear: right;
+  }
+}
+
+
+
+@media screen and (min-width: 992px) { 
+  body aside p{
+    margin-right: 100px;
+  }
+  body aside h5{
+    color: rgb(87,87,87);
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  body aside p{
+    color: rgb(87,87,87);
+    font-size: 0.8rem;
+  }
+  .icon {
+    width: 100px;
+  }
+  body div div nav ul{
+    padding: 0;
+  }
+  body div div nav ul li{
+    margin-bottom: 18px;
+    font-size: 2rem;
+  }
+  #main .hero-unit .pic{
+    position: relative;
+  }
+  #main .hero-unit .pic .title-box{
+    position: absolute;
+    bottom: 80px;
+    right:0;
+    line-height: 30px;
+  }
+  #titleA{
+    padding:15px;
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+  }
+  #titleB{
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+    clear: right;
+  }
+  .pic{
+    height:445px;
+  }
+  #wrapper {
+    max-width: 991px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #nav-info {
+    width: 20%;
+  }
+  #main {
+    width: 80%;
+  }
+  #nd-nav .option{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+    text-align: center;
+  }
+  #nd-nav .option:nth-of-type(1), #nd-nav .option:nth-of-type(2), #nd-nav .option:nth-of-type(3){
+    border-right: 0.5px solid rgb(217,239,236);
+  }
+  #archives{
+    display: flex;
+  } 
+  #archives .arti-with-pic{
+    width: 25%;
+    padding:0 10px 0 10px;
+  }
+  #archives .arti-with-pic .img img{
+    max-width: 100%;
+  }
+  
+}
